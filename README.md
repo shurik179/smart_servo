@@ -36,7 +36,7 @@ Namely, it uses half-duplex UART (8N1), and the general packet format is the sam
 
 However, it also differs from usual Dynamixel as follows:
 
-- Baud rate is 78 000, which is rather non-standard
+- Baud rate is 77 000, which is rather non-standard
 
 - The registers are very different. We can only guess hte register table.
 
