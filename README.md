@@ -34,11 +34,11 @@ Namely, it uses half-duplex UART (8N1), and the general packet format is the sam
 2 header bytes, ID, length, instruction, parameters, checksum. The instruction codes are also the same as Dynamixel's 
 (see https://emanual.robotis.com/docs/en/dxl/protocol1/#instruction) - at least, ping, read, and write. As for Dynamixel, each servo also has individual ID; by default it is set to 1, but can be reset if needed. 
 
-However, it also differs from usual Dynamixel as follows:
+However, it also differs from usual Dynamixel:
 
-- Baud rate is 77 000, which is rather non-standard
+- Baud rate is 76 800, which is rather non-standard
 
-- The registers are very different. We can only guess hte register table.
+- The registers are very different. We can only guess the register table.
 
 
 Here is the google doc showing captured communication and suggested decoding:
